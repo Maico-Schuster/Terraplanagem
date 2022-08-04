@@ -1,0 +1,140 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --cor-de-cabeçalho--: black;
+    --cor-de-fundo--: yellow;
+    --cor-texto--:black;
+    --cor-rover--:blue;
+}
+
+body{
+    background-color: var(--cor-de-fundo--);
+    color: var(--cor-texto--);
+}
+
+.cabecalho{
+    
+    background: var(--cor-de-cabeçalho--);
+    text-align: center;
+}
+
+.logo{
+width: auto;    
+}
+
+.container{
+    display:block;
+    background: var(--cor-de-fundo--);
+    text-align: center;
+}
+
+.secundario{
+    display:flex;
+    align-items: center;
+    background-color: var(--cor-de-fundo--);
+    margin:5em;
+}
+
+.container__descricao{
+    font-size: 26px;
+}
+
+.descricao__titulo{
+    text-decoration: underline;
+}
+
+.descricao__texto{
+    margin:1em;
+}
+
+.imagem_trator{
+    border-radius: 12px;
+    width: 50%;
+    margin:0 5em;
+    box-shadow: 20px 25px 10px #000000;
+}
+
+.container__servicos{
+    display:flex;
+    align-items: center;
+}
+
+.trabalho{
+    border-radius: 12px;
+    width:50%;
+    margin:0 5em;
+    box-shadow: 20px 25px 10px  #000000;
+}
+
+.servicos{
+    
+    font-size: 40px;
+    text-align:left;
+    text-decoration:underline;    
+}
+
+.opcoes{
+    font-size:26px;
+    text-align:left;
+    display:block;
+    text-decoration: none;
+    padding:3px;  
+}
+
+.mapa{
+    margin:5em;
+    text-align: center;
+}
+
+.mapa h3{
+    font-size: 45px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.mapa p{
+    font-size:26px;
+    padding:1em 0;
+    text-align: center;
+}
+
+.contatos{
+    font-size:30px;
+    text-align: center;
+}
+
+.icones{
+    margin: 1.5em 0 2em;
+}
+
+.face_e_whats {
+    border-radius: 12px;
+    box-shadow: 10px 10px 10px  #000000;
+}
+
+nav li{
+    display: inline;
+    margin:7px;
+}
+
+.rodape{
+    
+    background-color: var(--cor-de-cabeçalho--);
+    text-align: center;
+    display:block;
+}
+
+@media screen and (max-width:980px){
+.logo, .cabecalho, .rodape {
+    width:980px;
+
+}
+}
+
